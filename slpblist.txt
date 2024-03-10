@@ -1,0 +1,2 @@
+<.slp folder path here; i.e. E:\slp-files\>
+<connect code list starts here, one per line; i.e. mire#409>
