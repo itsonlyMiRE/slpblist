@@ -19,7 +19,7 @@ with open(wl_file, 'r') as wl_stream:
 if slp_dir[-1] != '\\':
     slp_dir = slp_dir + '\\'
 if not os.path.isdir(slp_dir):
-    exit(f'* provided .slp directory {slp_dir} is invalid in the blacklist file, try again\n')
+    exit(f'* provided .slp directory {slp_dir} is invalid in the whitelist file, try again\n')
 try:
     print('\n* press ctrl+c to exit ...')
     while True:
