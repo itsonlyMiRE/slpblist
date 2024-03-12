@@ -3,7 +3,7 @@ import glob, time, os, winsound
 bl_file = __file__.replace('py','txt')
 wl_file = __file__.replace('py','txt')
 bl_sound_file = os.path.dirname(os.path.realpath(__file__)) + '\\bl_sound.wav'
-wl_sound_file = os.path.dirname(os.path.realpath(__file__)) + '\wl_sound.wav'
+wl_sound_file = os.path.dirname(os.path.realpath(__file__)) + '\\wl_sound.wav'
 slp_dir = ''
 with open(bl_file, 'r') as wl_stream:
     slp_dir = wl_stream.readline().replace('\n','')
